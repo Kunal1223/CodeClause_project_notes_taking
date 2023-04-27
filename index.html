@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kunal Notes for code clause</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- &&&&&&&&&&&&&&&&&&&&&&&& navigation bar start &&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+
+    <div class="navbar">
+        <div class="nav">
+            <div class="nav-right">
+                <img src="image/logo-removebg-preview.png" alt="logo image">
+            </div>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./login animation/login.html" target="_blank">Log in</a></li>
+                    <!-- <textarea name="search" id="search" cols="8" rows="1" placeholder="search"></textarea> -->
+                    <!-- <input type="search" placeholder="search" id="serch3">
+                    <button class="button" id="myBtn">search</button> -->
+                    <button class="button1" id="myBtn" onclick="myFunction()">subscribe</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************navigation bar end ************************ -->
+    <div class="container1" id="kuna">
+        <div class="overlay">
+            <div class="title"><b>Sale is closing on:</b></div>
+            <div class="title" id="end-date">Sale is closing soon.</div>
+            <div class="title">
+                <marquee>Please subscribe kunal notes.</marquee>
+            </div>
+            <div class="col">
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="" class="time">Days</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="" class="time">Hour</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="" class="time">Minutes</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="" class="time">Seconds</label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ********************************summer sale end*************************** -->
+    <div class="container">
+        <div class="contain">
+            <h1 id="welcome">Hey, This is <span>Kunal Notes</span></h1>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title" id="card-title">Lets add your Notes </h5>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="     write your node here" id="addTxt"
+                        style="height: 200px" width="100%"></textarea>
+                </div>
+                <button class="btn btn-success" id="addBtn">Add Note</a>
+            </div>
+        </div>
+
+        <hr class="hr">
+        <div class="add">
+            <h1>Your added Notes</h1>
+            <hr class="hr1">
+        </div>
+        
+        <div id="notes" class="row container-fluid"></div>
+    </div>
+
+    <!-- ***************************footer******************************** -->
+
+    <div class="footer">
+        <div class="container4">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Kunal Notes</h3>
+                    <div class="app-logo">
+                        <img src="./image/logo-removebg-preview.png" alt="logo pic">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">Term</a></li>
+
+                        <li><a href="#">Blog </a></li>
+
+                        <li><a href="#">Events</a></li>
+
+
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+
+                    <ul>
+                        <li><a href="https://twitter.com/?logout=1682507210053" target="_blank">Twitter</a></li>
+
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+
+                        <li><a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a></li>
+
+                        <li><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr id="hr">
+            <p class="copyright">Copyright &copy;2023-Kunal Notes</p>
+
+        </div>
+    </div>
+
+    <!-- **********************************notes ends type************************** -->
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

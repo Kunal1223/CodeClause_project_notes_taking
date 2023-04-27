@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    /* background-color: rgba(0, 0, 0, 0.763); */
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    margin-top: -8px;
+    background-color: black;
+}
+
+.nav-right {
+    margin-left: 20px;
+}
+
+.nav-left {
+    /* display: inline-block; */
+    text-align: center;
+
+}
+
+img {
+    width: 110px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: inline;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.nav ul li {
+    display: inline;
+    /* padding: 15px; */
+    margin: 20px;
+}
+
+#serch {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.nav ul li a:hover {
+    color: blue;
+}
+
+.button {
+    margin-left: 20px;
+    padding: 2px;
+    border-radius: 6px;
+    background-color: rgb(9, 255, 0);
+    color: white;
+    cursor: pointer;
+    border: 0.1px solid rgb(9, 255, 0);
+
+}
+
+.button1 {
+    margin-left: 20px;
+    padding: 2px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 0.1px solid red;
+
+}
+
+
+/* *********navigation css end here ********************************** */
+.container1 {
+    width: 100%;
+    height: 50vh;
+    background: url(image/favback.webp);
+    background-size: cover;
+    margin-top: -7.7px;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(33, 33, 53, 0.583);
+    margin-left: 0%;
+
+}
+
+.title {
+    color: rgb(254, 5, 5);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.9rem;
+}
+
+.col {
+    display: flex;
+    margin-top: 20px;
+    width: 60%;
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    text-align: center;
+    width: 150px;
+}
+
+input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 6px -3px 1px yellow;
+    border: 0.5px solid lightyellow;
+}
+
+/* 
+#serch3{
+    width: 60px;
+    box-shadow: none;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid black
+} */
+
+label {
+    margin-top: 9px;
+}
+
+/* **********************summer sale end and notes begin here********************** */
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(224, 244, 220);
+    height: auto;
+    margin-top: 60px;
+}
+
+.contain span{
+    color: blue;
+}
+
+
+#searchTxt {
+    height: 28px;
+    margin-top: 5px;
+}
+
+#btn2 {
+    height: 28px;
+    text-align: center;
+    margin-top: 4px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+#welcome {
+    text-align: center;
+    color: rgb(5, 13, 7);
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.form-floating{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+}
+
+textarea{
+    width: 90%;
+    margin-top: 15px;
+    height: auto;
+}
+
+.card {
+    width: 90%;
+    background-color: rgb(242, 231, 231);
+    color: rgb(8, 0, 0);
+    margin-left: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#card-title{
+    color: rgb(0, 9, 1);
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+.card-title{
+    color: rgb(13, 105, 28);
+    margin-left: 25%;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+/* .card-body{
+    margin-left: 5%;
+} */
+
+#addBtn{
+    background-color: rgb(17, 232, 38);
+    color: white;
+    border: 1px solid rgb(17, 232, 38);
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 5%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#addBtn:hover{
+    background-color:rgb(4, 252, 29) ;
+}
+
+.add{
+    margin-left: 5%;
+}
+
+.primary{
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.noteCard{
+    width: 16rem;
+    height: auto;
+    border: .09px solid black;
+    margin-bottom: 40px;
+}
+
+.hr{
+    height: 5px;
+    margin-bottom: 40px;
+    background-color: #8a8a8a;
+    /* box-shadow: 10px 16px 13px #8a8a8a; */
+    width: 90%;
+    margin-left: 5%;
+}
+
+.hr1{
+    height: 2px;
+    width:220px;
+    margin-left: 10px;
+}
+
+/* ***************************footer******************* */
+.footer {
+    background-color: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-top: 80px;
+    /* display: flex; */
+
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+
+
+}
+
+.container4 {
+    max-width: 1300px;
+    height: auto;
+    margin: auto;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-col-1 {
+    flex-basis: 40%;
+}
+
+.footer-col-1 img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.footer-col-2 {
+    margin-left: 8pxpx;
+}
+
+.footer-col-2 ul li {
+    cursor: pointer;
+    font-size: 13px;
+    width: 54px;
+    height: auto;
+}
+
+.footer-col-2 a:hover {
+    color: white;
+}
+
+.footer-col-3 ul li {
+    cursor: pointer;
+    font-size: 13px;
+    width: 54px;
+
+}
+
+.footer-col-3 a:hover {
+    color: white;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
+.copyright copy {
+    font-size: 18px;
+
+}
+
+.footer ul li a{
+    color: rgb(190, 184, 184);
+    text-decoration: none;
+}
