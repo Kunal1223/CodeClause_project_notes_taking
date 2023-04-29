@@ -266,6 +266,9 @@ textarea{
     margin-bottom: 40px;
 }
 
+textarea{
+    font-size: 19px;
+}
 .hr{
     height: 5px;
     margin-bottom: 40px;
